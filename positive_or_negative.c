@@ -7,9 +7,13 @@ if(a>0)
 {
 printf("positive");
 }
-else
+else if(a<0)
 {
 printf("NEGATIVE");
 }
+ else
+ {
+printf("ZERO");
+ }
 getch();
 }
