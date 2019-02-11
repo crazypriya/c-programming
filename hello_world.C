@@ -1,12 +1,13 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
-	int n,i;
-	scanf("%d",&n);
-	for(i=0;i<n;i++)
-	{
-		printf("Hello");
-		printf("\n");
-	}
-return 0;
+int a,i;
+scanf("%d",&a);
+for(i=0;i<a;i++)
+{
+printf("Hello");
+printf("\n");
+}
+getch();
 }
